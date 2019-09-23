@@ -1,0 +1,7 @@
+#@unclutter &
+
+@xset s off
+@sxet -dpms
+@xset s noblank
+
+@/home/pi/.config/lxsession/LXDE-pi/start.sh

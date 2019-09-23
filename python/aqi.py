@@ -144,5 +144,6 @@ if __name__ == "__main__":
             pub_mqtt(jsonrow)
             
         print("Going to sleep for 1 min...")
+        subprocess.call(["killall", "chromium-browser-v7"])
         cmd_set_sleep(1)
         time.sleep(60)
